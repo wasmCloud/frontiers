@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+## Experiment
+First and foremost, **Frontiers** is an experiment. The hypothesis is that developers who play this game by participating and developing actors and running their own frontiers will learn wasmCloud development techniques, develop muscle memory, and hopefully have some fun along the way.
 
-You can use the [editor on GitHub](https://github.com/wasmCloud/frontiers/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Frontiers is not meant to be a game played by regular gamers, it is a game _for_ wasmCloud developers _by_ wasmCloud developers.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wasmCloud/frontiers/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Captain's Log
+For a full, detailed journey from conception to production deployment of the entire game from end to end, check out the [Captain's Log](./capnslog), where you will find blog posts, sample code, diagrams, concept art, screencast recordings, and much more.

@@ -7,7 +7,7 @@ defmodule FrontiersSiteWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_frontiers_site_key",
-    signing_salt: "YUHyqGJT"
+    signing_salt: "c194c3vT"
   ]
 
   socket "/socket", FrontiersSiteWeb.UserSocket,
@@ -32,7 +32,6 @@ defmodule FrontiersSiteWeb.Endpoint do
     socket "/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket
     plug Phoenix.LiveReloader
     plug Phoenix.CodeReloader
-    plug Phoenix.Ecto.CheckRepoStatus, otp_app: :frontiers_site
   end
 
   plug Plug.RequestId

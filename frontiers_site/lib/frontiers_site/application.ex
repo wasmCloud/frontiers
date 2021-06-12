@@ -7,8 +7,6 @@ defmodule FrontiersSite.Application do
 
   def start(_type, _args) do
     children = [
-      # Start the Ecto repository
-      FrontiersSite.Repo,
       # Start the Telemetry supervisor
       FrontiersSiteWeb.Telemetry,
       # Start the PubSub system

@@ -7,16 +7,13 @@
 # General application configuration
 use Mix.Config
 
-config :frontiers_site,
-  ecto_repos: [FrontiersSite.Repo]
-
 # Configures the endpoint
 config :frontiers_site, FrontiersSiteWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "TFHB9OQBjQaTAWtM4J1UoD/nvckN386Ox5MTnIhZVk66lM8D8q9YcXFRWgApC405",
+  secret_key_base: "hyadzUBg0sqEXJcE6Bj0ZPjFXUGX9SAvwPbilsWMzFzhlClkuPvj0npiRXdVvK0k",
   render_errors: [view: FrontiersSiteWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: FrontiersSite.PubSub,
-  live_view: [signing_salt: "uSAwrsca"]
+  live_view: [signing_salt: "v+Y/jOqz"]
 
 # Configures Elixir's Logger
 config :logger, :console,

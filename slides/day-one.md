@@ -4,6 +4,18 @@ A player-generated content game of random collaboration, resource and constructi
 
 ---
 
+# Why Frontiers?
+
+## Naming is Hard
+Not going to lie, I didn't come up with this name. That's why it's so good
+
+## Double Meaning
+
+1. The extreme limit of settled land beyond which lies wilderness, ...
+1. The extreme limit of understanding or achievement in a particular area.
+
+---
+
 # Developer Generated Content
 
 ## MUDS, MUCK, MOO, MUSH, etc
@@ -32,17 +44,18 @@ The following are the high-level goals for this game.
 
 1. Go to https://frontiers.wasmcloud.dev
 2. Sign In/Sign Up
-3. Generate a Frontier Seed Key
-4. Create a Frontier
+3. Generate a Frontier Seed (private) Key
+4. Create a Frontier (give us your **_public_** key)
 5. Start the _"Frontiers Capability Provider"_ in your host
 6. Start your hero actors in your host
 7. Set link definitions for your heros-->_frontiers provider_.
 8. Monitor your frontier's progress online at the Frontiers website
+9. Monitor the actors in your local wasmCloud dashboard
 
 ---
 # Gameplay - Creating Frontier Heros
 
-A frontier **hero** is a wasmCloud actor, signed with the `wasmcloud:frontiers` capability
+A frontier **hero** is a wasmCloud actor, signed with the `wasmcloud:frontiers`* capability
 contract.
 
 Heros:
@@ -51,6 +64,10 @@ Heros:
 * Move
 * Build
 * Tear Down
+
+
+
+*: See https://wasmcloud.dev/reference/host-runtime/capabilities/
 
 ---
 # Gameplay - The Wormhole
@@ -156,3 +173,27 @@ The following structures can be built by heros using the "hero SDK" (actor inter
 | Bulwark | Iron |
 | Pit Trap | Wood |
 
+---
+# Call to Action
+What should you do next?
+
+## Contact Us
+Reach out on Twitter **@KevinHoffman** & **@wasmCloud**
+
+Github https://github.com/wasmCloud
+
+Docs https://wasmcloud.dev
+
+Homepage https://wasmcloud.com
+
+DM us to get an invite to our slack!
+
+Weekly wasmCloud community meetings (Zoom) on Wednesdays @ 1pm Eastern
+
+## Follow the Game Progress
+
+Keep watching our Twitter & doc sites for new journal entries as we build the game
+
+## Contribute
+
+Become a wasmCloud Open Source contributor

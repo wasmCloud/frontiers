@@ -125,7 +125,7 @@ defp place_wood_resources(f = %Frontier{}) do
 
 Now we can fire up `iex` and create a new frontier and see if we like what we've got:
 
-```shell
+```elixir
 f = FrontiersSite.Model.Frontier.new("Mxxxx")
 %FrontiersSite.Model.Frontier{
   public_key: "Mxxxx",

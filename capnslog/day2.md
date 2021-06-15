@@ -130,47 +130,13 @@ ex(1)> f = FrontiersSite.Model.Frontier.new("Mxxx")
 %FrontiersSite.Model.Frontier{
   public_key: "Mxxx",
   resources: [
-    {{2, 4}, :wood},
-    {{2, 1}, :wood},
-    {{9, 3}, :wood},
-    {{1, 0}, :wood},
-    {{0, 9}, :wood},
-    {{2, 2}, :wood},
-    {{5, 2}, :wood},
-    {{5, 2}, :wood},
-    {{3, 7}, :wood},
-    {{3, 1}, :wood},
-    {{3, 7}, :wood},
-    {{7, 0}, :wood},
-    {{8, 1}, :wood},
-    {{4, 3}, :wood},
-    {{8, 8}, :wood},
-    {{1, 1}, :wood},
-    {{9, 9}, :wood}, 
-    {{9, 9}, :wood},
-    {{8, 9}, :wood},
-    {{3, 0}, :wood},
-    {{1, 2}, :dairy},
-    {{5, 8}, :dairy},
-    {{6, 0}, :dairy},
-    {{0, 5}, :dairy},
-    {{5, 2}, :dairy},
-    {{3, 6}, :dairy},
-    {{2, 7}, :dairy},
-    {{2, 7}, :mine},
-    {{0, 6}, :mine},
-    {{6, 5}, :mine},
-    {{9, 1}, :mine},
-    {{4, 4}, :mine}
+   ...
   ],
-  terrain: [:grass, :grass, :grass, :grass, :grass, :grass, :grass, :grass,
-   :grass, :grass, :grass, :grass, :grass, :grass, :grass, :grass, :grass,
-   :grass, :grass, :grass, :grass, :grass, :grass, :grass, :grass, :grass,
-   :grass, :grass, :grass, :grass, :grass, :grass, :grass, :grass, :grass,
-   :grass, :grass, :grass, :grass, :grass, :grass, :grass, :grass, :grass,
-   :grass, :grass, :grass, ...]
+  terrain: [...]
 }
 ```
+
+Because of github pages I had to snip nearly everything out of this because it won't render properly on this site. I may have to ditch gh pages and use something else like a hugo site on Netlify.
 
 This looks like a pretty good start. We've got our base terrain (grass), we've got wood, dairy, and mine resources allocated randomly across the map. It looks like we're ready to see if we can make a renderer for this model, which I'll show in the next journal entry.
 

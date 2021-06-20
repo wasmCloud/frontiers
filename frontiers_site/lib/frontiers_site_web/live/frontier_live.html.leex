@@ -1,0 +1,22 @@
+<h1>Frontier <%= @frontier_id %></h1>
+
+<table width="100%" style="border-collapse: collapse; border-spacing: 0; row-spacing: 0; line-height: 0;" cellspacing="0" cellpadding="0">
+<%= for row <- Enum.chunk_every(@tiles, 25)  do%>
+    <tr>
+        <%= for col <- row do %>
+            <%= if col.terrain == :grass do %>
+                <td style="background-color: darkgreen; width: 32px; border-color: darkgreen; text-align: center;">
+            <% else %>
+                <td style="background-color: gray; width: 32px; border-color: gray;text-align: center;">
+            <% end  %>
+                <%= case col.resource do %>
+                    <% :wood -> %>W
+                    <% :mine -> %>M
+                    <% :dairy -> %>D
+                    <% _ -> %>&nbsp;
+                <% end %>
+            </td>
+        <% end %>
+    </tr>
+<% end   %>
+</table>
